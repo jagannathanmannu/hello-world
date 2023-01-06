@@ -1,0 +1,103 @@
+{
+	"context": {
+		"domain": "nic2004:52110",
+		"country": "IND",
+		"city": "std:080",
+		"action": "confirm",
+		"core_version": "0.9.3",
+		"bap_id": "bingondc.ppe.microsoft.com",
+		"bap_uri": "https://bingondc.ppe.microsoft.com/",
+		"bpp_id": "b-ondc-seller-bpp.nlincs.in",
+		"bpp_uri": "https://b-ondc-seller-bpp.nlincs.in/bpp",
+		"transaction_id": "5f3f5173f50846579b89f282cad539d5",
+		"message_id": "a8a9e754dec044d5b5b0bf7d0a30521a",
+		"timestamp": "2022-10-06T07:25:06.5372376Z"
+	},
+	"message": {
+		"order": {
+			"id": "771264bc3fcd44da86421fbcd8d9c7c0",
+			"provider": {
+				"id": "20334",
+				"locations": [
+					{
+						"id": "20334"
+					}
+				]
+			},
+			"items": [
+				{
+					"id": "41270",
+					"quantity": {
+						"count": 1
+					}
+				}
+			],
+			"billing": {
+				"id": "6b95d46d63a24ff5817423b30b4d1472",
+				"name": "Billing Info",
+				"organization": {
+					"name": "Test Org",
+					"cred": "Test organization"
+				},
+				"address": {
+					"door": "no 29",
+					"name": "test",
+					"building": "",
+					"street": "38th main road",
+					"locality": "1st Phase JP Nagar",
+					"ward": "",
+					"city": "Bengaluru",
+					"state": "Karnataka",
+					"country": "India",
+					"area_code": "560038"
+				},
+				"email": "test@gmail.com",
+				"phone": "9987324432",
+				"tax_number": "",
+				"created_at": "2022-06-28T03:37:41.9090082Z",
+				"updated_at": "2022-06-28T03:37:41.9090089Z"
+			},
+			"fulfillments": [
+				{
+					"id": "e431470fae2544b78af8757a693f7598",
+					"type": "Delivery",
+					"provider_id": "20334",
+					"customer": {
+						"person": {
+							"name": "test"
+						}
+					},
+					"end": {
+						"location": {
+							"gps": "12.977259,77.636599",
+							"address": {
+								"door": "no 29",
+								"name": "test",
+								"building": "",
+								"street": "38th main road",
+								"locality": "1st Phase JP Nagar",
+								"ward": "",
+								"city": "Bengaluru",
+								"state": "Karnataka",
+								"country": "India",
+								"area_code": "560038"
+							}
+						},
+						"contact": {
+							"phone": "9987324432",
+							"email": "test@gmail.com"
+						}
+					}
+				}
+			],
+			"payment": {
+				"params": {
+					"amount": "3945",
+					"currency": "INR"
+				},
+				"type": "ON-ORDER",
+				"status": "PAID"
+			}
+		}
+	}
+}
