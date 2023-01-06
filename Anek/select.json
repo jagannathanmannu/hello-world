@@ -1,0 +1,49 @@
+{
+	"context": {
+		"domain": "nic2004:52110",
+		"country": "IND",
+		"city": "std:080",
+		"action": "select",
+		"core_version": "0.9.3",
+		"bap_id": "bingondc.ppe.microsoft.com",
+		"bap_uri": "https://bingondc.ppe.microsoft.com/",
+		"bpp_id": "b-ondc-seller-bpp.nlincs.in",
+		"bpp_uri": "https://b-ondc-seller-bpp.nlincs.in/bpp",
+		"transaction_id": "5f3f5173f50846579b89f282cad539d5",
+		"message_id": "940dd233bda447929b135986ff516400",
+		"timestamp": "2022-10-06T07:24:32.4971292Z"
+	},
+	"message": {
+		"order": {
+			"provider": {
+				"id": "20334",
+				"locations": [
+					{
+						"id": "20334"
+					}
+				]
+			},
+			"items": [
+				{
+					"id": "41270",
+					"quantity": {
+						"count": 1
+					}
+				}
+			],
+			"fulfillments": [
+				{
+					"id": "947f37fceb3a4617923ae7e37d17b25a",
+					"end": {
+						"location": {
+							"gps": "12.977259,77.636599",
+							"address": {
+								"area_code": "560038"
+							}
+						}
+					}
+				}
+			]
+		}
+	}
+}

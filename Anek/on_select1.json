@@ -1,0 +1,71 @@
+{
+	"context": {
+		"domain": "nic2004:52110",
+		"country": "IND",
+		"city": "std:080",
+		"action": "on_select",
+		"core_version": "1.0.0",
+		"bap_id": "bingondc.ppe.microsoft.com",
+		"bap_uri": "https://bingondc.ppe.microsoft.com/",
+		"bpp_id": "b-ondc-seller-bpp.nlincs.in",
+		"bpp_uri": "https://b-ondc-seller-bpp.nlincs.in/bpp",
+		"transaction_id": "19a644bff1e74e2ea985e3b8c7e6791a",
+		"message_id": "f6f9b13000924ecd8a0c63d133985842",
+		"timestamp": "2022-09-26T15:36:02.396Z",
+		"ttl": "PT30S"
+	},
+	"message": {
+		"order": {
+			"provider": {
+				"id": "20334"
+			},
+			"items": [
+				{
+					"id": "41270"
+				}
+			],
+			"fulfillments": [
+				{
+					"id": "20334",
+					"state": {
+						"descriptor": {
+							"name": "Serviceable"
+						},
+						"updated_at": "0001-01-01T00:00:00"
+					},
+					"tracking": false
+				}
+			],
+			"quote": {
+				"price": {
+					"currency": "INR",
+					"value": "3945.00"
+				},
+				"breakup": [
+					{
+						"@ondc/org/item_id": "41270",
+						"@ondc/org/item_quantity": {
+							"count": 1
+						},
+						"@ondc/org/title_type": "item",
+						"title": "Prestige PRWO 1.8-2 Electric Rice Cooker 1.8L with Close Fit Lid (White  Red)",
+						"price": {
+							"currency": "INR",
+							"value": "3945.00"
+						}
+					},
+					{
+						"@ondc/org/item_id": "20334",
+						"@ondc/org/title_type": "delivery",
+						"title": "Delivery charges",
+						"price": {
+							"currency": "INR",
+							"value": "0.00"
+						}
+					}
+				],
+				"ttl": "PT20M"
+			}
+		}
+	}
+}
